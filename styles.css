@@ -90,6 +90,10 @@ body {
   text-decoration: none;
 }
 
+.portfolio li a:hover {
+  color: yellow;
+}
+
 /* Dark theme */
 .dark {
   background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
@@ -97,16 +101,16 @@ body {
 
 .dark .container {
   background: #333439;
-  color: #F6F6F6;
+  color: #f6f6f6;
 }
 
 .dark .portfolio {
-  color: #1C1C1C;
+  color: #1c1c1c;
 }
 
 .dark .theme button {
-  color: #FFFFFF;
-  background: #1C1C1C;
+  color: #ffffff;
+  background: #1c1c1c;
   border-radius: 100px;
-  border: 2px solid #F7F7F7;
+  border: 2px solid #f7f7f7;
 }
